@@ -1,5 +1,8 @@
 body {
-    font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+font-family: 'Sawarabi Mincho', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Abril Fatface', cursive;
     background-image: url("../../Quiz-Board/images/classroom3.jpg");
     background-repeat: no-repeat;
     height: 800px;
@@ -38,7 +41,7 @@ input {
 }
 
 #after_submit {
-  visibility: visible;
+  visibility: hidden;
   background: #ff5459;
   padding: 10px 20px 10px 20px;
   width: 400px;
@@ -46,4 +49,13 @@ input {
   float: left;
   margin-left: 20px;
   font-size: 30px;
+}
+
+#picture {
+  width: 375px;
+  height: 245px;
+}
+
+#mc {
+  display: inline;
 }
