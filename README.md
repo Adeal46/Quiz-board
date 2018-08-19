@@ -1,0 +1,5 @@
+# Quiz-board#Quiz Board project# QUIZ---BOARD [This project is about a quiz on javaScript submittedin full fulfilment of the project requirments and description on 18/8/2018, By Adil Lema .]
+
+Description The application is about a Quiz---Board which contains questions about javaScript that a user has to answer and awarded marks according to the correct questions he/she answers.
+
+Setup/Installation Requirements The project uses atom editor for editing purposes The project uses google chrome to console on JavaScript the project has deployed use of HTML for craeting the content and CSS for styling. you can install the project by visit the site https://alexarirok.github.io/QUIZ---BOARD/. then attempt the questions on the that will be displayed. **** specifications**** it can count upto 3 outputs whereby each output gives an answer if all questions are wrong the the user will be awarded as zero points. If two out of three questions are correct the user will be awarded 2 points, and if all questions are correct the user will be awarded 3 points. Total points are 3 and least point is 0. Technologies used JavaScript CSS HTML Atom jQuery Bootstrap
