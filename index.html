@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Quiz Board</title>
-  <link href="style.css" rel="stylesheet" type="text">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Pacifico|Sawarabi+Mincho|Ubuntu" rel="stylesheet">
+  <script src="js/script.js"></script>
 </head>
 
 <body>
   <h1>QUIZ BOARD</h1>
   <form id="quiz" name="quiz">
+
+    <p>Which of the following is a programming language</p>
+    <input type="radio" id="mc" name="question1" value="HTML">HTML<br>
+    <input type="radio" id="mc" name="question1" value="Python">Python<br>
+    <input type="radio" id="mc" name="question1" value="CSS">CSS<br>
+
+
+    <p>What tool is used by programmers to track their code</p>
+    <input type="radio" id="mc" name="question2" value="ECMAscript">ECMAscript<br>
+    <input type="radio" id="mc" name="question2" value="Bootstrap">Bootstrap<br>
+    <input type="radio" id="mc" name="question2" value="Git">Git<br>
+
+    <p>Which programming language is considered defacto programming language</p>
+    <input type="radio" id="mc" name="question3" value="Ruby">Ruby<br>
+    <input type="radio" id="mc" name="question3" value="Javascript">Javascript<br>
+    <input type="radio" id="mc" name="question3" value="C++">C++<br>
+
+    <input id="button" type="button" value="Submit" onclick="check()">
   </form>
 
-  <p>What is the short form of HTML</p>
-   <input type="radio" id="mc" name="question1" value="HTML">HTML<br>
-   <input type="radio" id="mc" name="question1" value="HMLT">HMLT<br>
-   <input type="radio" id="mc" name="question1" value="MLHT">MLHT<br>
+  <div id="after_submit">
 
-
-  <P>What is the other name for Javascript</p>
-    <input type="radio" id="mc" name="question2" value="ECMAscript">ECMAscript<br>
-    <input type="radio" id="mc" name="question2" value="JS">JS<br>
-    <input type="radio" id="mc" name="question2" value="I dont know">I dont know<br>
-
-    <p>Is C++ a low level language?</p>
-    <input type="radio" id="mc" name="question3" value="Yes">Yes<br>
-    <input type="radio" id="mc" name="question3" value="No">No<br>
-
-    <input id="button" type="button" value="Submit" onclick="check();">
+    <p id="message">
+      <p/>
+      <p id="number_correct"></p>
+      <img id="picture">
+  </div>
+</body>
 
 </html>
